@@ -194,7 +194,7 @@ class DcpConnection(object):
                                'expiration': exp,
                                'lock_time': lock_time,
                                'nru': nru,
-                               'key': key},
+                               'key': key,
                                'value': value})
 
     def _handle_deletion(self, keylen, extlen, status, cas, body):
